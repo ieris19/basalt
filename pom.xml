@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ieris19.config</groupId>
+    <artifactId>ieris-origin</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <groupId>com.ieris19</groupId>
+  <artifactId>basalt</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Basalt</name>
+  <description>
+    Basalt is a Java application designed to turn your Obsidian Vaults
+    into HTML documents ready for publishing. It is meant to be used as an
+    alternative to the Obsidian Publish service, minus the hosting.
+
+    Basalt utilizes Flexmark to convert Markdown to HTML, alongside a custom
+    CSS stylesheet to make the HTML look more polished.
+  </description>
+
+  <dependencies>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.4.7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.28</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.vladsch.flexmark</groupId>
+      <artifactId>flexmark-all</artifactId>
+      <version>0.64.8</version>
+    </dependency>
+  </dependencies>
+</project>

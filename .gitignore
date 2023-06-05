@@ -1,0 +1,46 @@
+### JetBrains IDE
+# IDE-specific configuration
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Maven
+target/
+
+### Archives
+# Compressed Files
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.gzip
+*.tgz
+*.bzip
+*.bzip2
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.xar
+
+# Packing-only formats
+*.iso
+*.tar
+
+# Package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+*.txz
+
+### Others
+# Log files
+*.log
